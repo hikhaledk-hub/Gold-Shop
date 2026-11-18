@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8f6f1" />
+    <meta
+      name="description"
+      content="اكتشفوا مجوهرات خالد العسيائي الذهبية، حيث تلتقي الحرفية العريقة بالتصاميم التي تدوم."
+    />
+    <title>خالد العسيائي | ذهب ومجوهرات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <p>هدية تليق بمن تحبون <span>—</span> تغليف فاخر مع كل قطعة</p>
+      <a href="#collections">اكتشفوا المجموعة <span aria-hidden="true">←</span></a>
+    </div>
+
+    <header class="site-header">
+      <button class="icon-button mobile-menu-button" type="button" aria-label="فتح القائمة" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+      </button>
+      <a class="brand" href="#" aria-label="خالد العسيائي، الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true">خ</span>
+        <span class="brand-name">خالد العسيائي<small>ذهب ومجوهرات</small></span>
+      </a>
+      <nav class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="#collections">المجموعات</a>
+        <a href="#bestsellers">الأكثر طلبًا</a>
+        <a href="#story">حكايتنا</a>
+        <a href="#footer">تواصلوا معنا</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-button" type="button" aria-label="بحث">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.5 4.5" /></svg>
+        </button>
+        <button class="icon-button bag-button" type="button" aria-label="سلة التسوق">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z" /><path d="M9 9V6a3 3 0 0 1 6 0v3" /></svg>
+          <span class="bag-count" aria-live="polite">0</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="search-panel" aria-hidden="true">
+      <label for="search-input">ابحثوا عن قطعة تحبونها</label>
+      <div class="search-field">
+        <input id="search-input" type="search" placeholder="خاتم، عقد، أقراط..." />
+        <button type="button" class="search-close" aria-label="إغلاق البحث">✕</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="مجوهرات ذهبية بتصميم أنيق"></div>
+        <div class="hero-content">
+          <span class="eyebrow"><span class="eyebrow-line"></span> إرثٌ من الجمال</span>
+          <h1 id="hero-title">ذهبٌ يُحكى<br />وجمالٌ <em>يدوم</em></h1>
+          <p>قطع صيغت بعناية، لترافق أجمل لحظاتكم وتبقى قريبة من القلب جيلًا بعد جيل.</p>
+          <a class="button button-dark" href="#bestsellers">تسوقوا التشكيلة <span aria-hidden="true">←</span></a>
+          <div class="hero-note"><span class="note-star">✳</span><span>حرفية استثنائية<br />في كل تفصيلة</span></div>
+        </div>
+        <div class="hero-index"><span>01</span><i></i><span>03</span></div>
+        <span class="hero-caption">مجموعة التوقيع — ٢٠٢٦</span>
+      </section>
+
+      <section class="benefits" aria-label="مميزات المتجر">
+        <div class="benefit"><span class="benefit-icon">✳</span><div><strong>ذهب أصيل</strong><small>عيارات موثوقة ومضمونة</small></div></div>
+        <div class="benefit"><span class="benefit-icon">◇</span><div><strong>صناعة متقنة</strong><small>تفاصيل تصنع الفرق</small></div></div>
+        <div class="benefit"><span class="benefit-icon">♧</span><div><strong>تغليف يليق بكم</strong><small>هدية جاهزة لكل مناسبة</small></div></div>
+        <div class="benefit"><span class="benefit-icon">↗</span><div><strong>توصيل آمن</strong><small>إلى بابكم بكل عناية</small></div></div>
+      </section>
+
+      <section class="collections section-wrap" id="collections">
+        <div class="section-heading">
+          <div><span class="eyebrow">اختاري ما يشبهك</span><h2>تسوقوا حسب <em>التصنيف</em></h2></div>
+          <a class="text-link" href="#bestsellers">جميع القطع <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="collection-grid">
+          <a class="collection-card collection-necklaces" href="#bestsellers" data-filter-link="قلادات">
+            <span class="collection-number">01 / 04</span><span class="collection-label">قلادات</span><span class="collection-arrow">↖</span>
+          </a>
+          <a class="collection-card collection-rings" href="#bestsellers" data-filter-link="خواتم">
+            <span class="collection-number">02 / 04</span><span class="collection-label">خواتم</span><span class="collection-arrow">↖</span>
+          </a>
+          <a class="collection-card collection-earrings" href="#bestsellers" data-filter-link="أقراط">
+            <span class="collection-number">03 / 04</span><span class="collection-label">أقراط</span><span class="collection-arrow">↖</span>
+          </a>
+          <a class="collection-card collection-bracelets" href="#bestsellers" data-filter-link="أساور">
+            <span class="collection-number">04 / 04</span><span class="collection-label">أساور</span><span class="collection-arrow">↖</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="bestsellers section-wrap" id="bestsellers">
+        <div class="section-heading product-heading">
+          <div><span class="eyebrow">اختيارات لاقت حبكم</span><h2>الأكثر <em>طلبًا</em></h2></div>
+          <div class="filter-tabs" role="group" aria-label="تصفية المنتجات">
+            <button class="filter-tab active" type="button" data-filter="الكل">الكل</button>
+            <button class="filter-tab" type="button" data-filter="قلادات">قلادات</button>
+            <button class="filter-tab" type="button" data-filter="خواتم">خواتم</button>
+            <button class="filter-tab" type="button" data-filter="أقراط">أقراط</button>
+          </div>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="قلادات" data-name="قلادة خيط النور" data-price="1250">
+            <div class="product-image image-pendant"><span class="product-badge">الأكثر مبيعًا</span><button class="favorite-button" type="button" aria-label="إضافة قلادة خيط النور للمفضلة">♡</button><button class="quick-add" type="button">أضيفي إلى السلة <span>+</span></button></div>
+            <div class="product-info"><div><h3>قلادة خيط النور</h3><span class="product-detail">ذهب أصفر عيار ١٨</span></div><strong>١٬٢٥٠ <small>ر.س</small></strong></div>
+          </article>
+          <article class="product-card" data-category="خواتم" data-name="خاتم الوعد" data-price="2180">
+            <div class="product-image image-ring"><span class="product-badge badge-new">وصل حديثًا</span><button class="favorite-button" type="button" aria-label="إضافة خاتم الوعد للمفضلة">♡</button><button class="quick-add" type="button">أضيفي إلى السلة <span>+</span></button></div>
+            <div class="product-info"><div><h3>خاتم الوعد</h3><span class="product-detail">ذهب أصفر عيار ٢١</span></div><strong>٢٬١٨٠ <small>ر.س</small></strong></div>
+          </article>
+          <article class="product-card" data-category="أقراط" data-name="أقراط ضوء القمر" data-price="1750">
+            <div class="product-image image-earrings"><button class="favorite-button" type="button" aria-label="إضافة أقراط ضوء القمر للمفضلة">♡</button><button class="quick-add" type="button">أضيفي إلى السلة <span>+</span></button></div>
+            <div class="product-info"><div><h3>أقراط ضوء القمر</h3><span class="product-detail">ذهب أصفر عيار ١٨</span></div><strong>١٬٧٥٠ <small>ر.س</small></strong></div>
+          </article>
+          <article class="product-card" data-category="أساور" data-name="سوار خيط المحبة" data-price="2450">
+            <div class="product-image image-bracelet"><button class="favorite-button" type="button" aria-label="إضافة سوار خيط المحبة للمفضلة">♡</button><button class="quick-add" type="button">أضيفي إلى السلة <span>+</span></button></div>
+            <div class="product-info"><div><h3>سوار خيط المحبة</h3><span class="product-detail">ذهب أصفر عيار ٢١</span></div><strong>٢٬٤٥٠ <small>ر.س</small></strong></div>
+          </article>
+        </div>
+        <div class="center-action"><a class="button button-outline" href="#collections">اكتشفوا كل القطع <span aria-hidden="true">←</span></a></div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="story-image" role="img" aria-label="تفاصيل صناعة الذهب اليدوية"></div>
+        <div class="story-copy">
+          <span class="eyebrow">من القلب إلى القلب</span>
+          <h2>لأن لكل قطعة<br />حكاية <em>تستحق أن تُروى</em></h2>
+          <p>في خالد العسيائي، نؤمن أن الذهب أكثر من زينة؛ إنه ذكرى تُحفظ، ومحبة تُهدى، وإرث يعبر الزمن. نختار كل تصميم بعناية ونصوغه بشغف، ليكون جزءًا من حكايتكم.</p>
+          <a class="text-link" href="#footer">تعرّفوا على حكايتنا <span aria-hidden="true">←</span></a>
+          <span class="story-seal" aria-hidden="true">صُنع<br />بمحبة <span>✳</span></span>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <span class="eyebrow">رسائل صغيرة، لحظات أجمل</span>
+        <h2>كونوا أول من يعرف <em>الجديد</em></h2>
+        <p>اشتركوا في قائمتنا لتصلكم أحدث التصاميم والعروض الخاصة.</p>
+        <form class="newsletter-form">
+          <label class="sr-only" for="email-input">البريد الإلكتروني</label>
+          <input id="email-input" type="email" placeholder="بريدكم الإلكتروني" required />
+          <button type="submit" aria-label="اشتراك">اشتركوا <span aria-hidden="true">←</span></button>
+        </form>
+        <span class="newsletter-message" aria-live="polite"></span>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-main">
+        <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">خ</span><span class="brand-name">خالد العسيائي<small>ذهب ومجوهرات</small></span></a><p>ذهبٌ يُحكى، وجمالٌ يدوم.<br />قطع صيغت لتبقى قريبة من القلب.</p></div>
+        <div class="footer-links"><h3>تسوقوا</h3><a href="#collections">كل المجموعات</a><a href="#bestsellers">الأكثر طلبًا</a><a href="#bestsellers">وصل حديثًا</a></div>
+        <div class="footer-links"><h3>خدمتكم تهمنا</h3><a href="#footer">الشحن والتوصيل</a><a href="#footer">الاستبدال والاسترجاع</a><a href="#footer">الأسئلة الشائعة</a></div>
+        <div class="footer-contact"><h3>يسعدنا تواصلكم</h3><p>للاستفسارات والطلبات الخاصة</p><a href="mailto:hello@alkhalidgold.com">hello@alkhalidgold.com</a><div class="social-links"><a href="#footer" aria-label="إنستغرام">ig</a><a href="#footer" aria-label="سناب شات">sc</a><a href="#footer" aria-label="تيك توك">tk</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© ٢٠٢٦ خالد العسيائي ذهب ومجوهرات</span><span>صُنع بعناية ومحبة <b>✳</b></span><span>الأسعار تشمل ضريبة القيمة المضافة</span></div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+    <div class="cart-overlay" aria-hidden="true">
+      <aside class="cart-drawer" aria-label="سلة التسوق" aria-modal="true" role="dialog">
+        <div class="cart-header"><h2>سلة التسوق <span class="cart-heading-count">(٠)</span></h2><button class="cart-close icon-button" type="button" aria-label="إغلاق السلة">✕</button></div>
+        <div class="cart-items"></div>
+        <div class="cart-empty"><span>◇</span><p>سلتكم تنتظر قطعة تحبونها</p><button class="continue-shopping" type="button">تابعوا التسوق</button></div>
+        <div class="cart-footer"><div><span>الإجمالي</span><strong class="cart-total">٠ ر.س</strong></div><button class="button button-dark checkout-button" type="button">إتمام الطلب <span aria-hidden="true">←</span></button><small>توصيل آمن وتغليف فاخر لكل طلب</small></div>
+      </aside>
+    </div>
+  </body>
+</html>
